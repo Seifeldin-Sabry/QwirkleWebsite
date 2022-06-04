@@ -1,3 +1,3 @@
-# Project Quirkle - Integration 1.2
+# Project Qwirkle Website - Integration 1.2
 
-Team Members: Seifeldin, Sakis and Nathan 
+to view the website live, you may go to this link (Qwirkle)[https://2021-22.team14.acs.kdg.be/] 
