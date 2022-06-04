@@ -1,0 +1,243 @@
+footer {
+    position: fixed !important;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+h1, p, div, a, figurecaption {
+    font-family: Arial;
+}
+article {
+    padding: 0;
+}
+h1.page-title {
+    color: #f7a601;
+    filter: drop-shadow(15px 15px 20px #121212);
+    text-shadow: 15px 15px 20px #121212;
+}
+label {
+    width: 200px;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+}
+span {
+    width: 100%;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+}
+input, #difficulty > ul, #game-outcome > ul {
+    width: 220px;
+    font-family: 'kg_primary_whimsyregular';
+    font-size: 20px;
+    color: white;
+    background: #222630;
+    border: none;
+    margin-bottom: 15px;
+    padding: 2%;
+    z-index: 2;
+}
+form {
+    display: block;
+    margin: auto;
+}
+#form-container {
+    padding: 10px 35px;
+    background: #121212;
+    width: 500px;
+    height: 520px;
+    margin: auto;
+    border-radius: 25px;
+    filter: drop-shadow(15px 15px 20px #121212);
+}
+#form-container > h2 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+#form-container > p {
+    text-align: center;
+    color: white;
+    filter: drop-shadow(15px 15px 20px #121212);
+    text-shadow: 15px 15px 20px #121212;
+    margin: 15px auto;
+}
+#query > button {
+    margin-bottom: 0 !important;
+    margin-top: 30px !important;
+    margin: auto;
+    display: block;
+}
+#form-container > form > ul > li.button {
+    margin-top: 20px;
+}
+#form-container > form > div:nth-child(7) > label {
+    margin-bottom: 20px;
+}
+#form-container > form > div:nth-child(7) > label, #form-container > form > div:nth-child(8) > label {
+    margin: 0;
+    width: 50px;
+}
+#difficulty-EASY, #difficulty-AI {
+    width: auto;
+}
+#form-container > form > div:nth-child(7) {
+    margin-top: 10px;
+}
+#form-container > form > div:nth-child(8) {
+    margin-bottom: 10px;
+}
+#difficulty > ul > li:nth-child(2) > input[type=checkbox], #difficulty > ul > li:nth-child(1) > input[type=checkbox],
+#game-outcome > ul > li:nth-child(1) > input[type=checkbox], #game-outcome > ul > li:nth-child(2) > input[type=checkbox]{
+    width: auto;
+}
+#difficulty > ul > li:nth-child(1), #difficulty > ul > li:nth-child(2), #game-outcome > ul > li:nth-child(1), #game-outcome > ul > li:nth-child(2) {
+    margin: auto;
+    width: 70px;
+}
+#difficulty > ul, #game-outcome > ul {
+    padding: 2px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: black;
+    width: 42%;
+    padding: 25px;
+}
+#difficulty, #game-outcome {
+    width: 49%;
+    display: inline-block;
+}
+.dropdown-check-list {
+    display: inline-block;
+    width: 99%;
+}
+
+.dropdown-check-list .anchor {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #ccc;
+    height: 39px;
+    line-height: 28px;
+    border-radius: 10px;
+}
+
+.dropdown-check-list .anchor:after {
+    position: absolute;
+    content: "";
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    padding: 5px;
+    right: 10px;
+    top: 20%;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.dropdown-check-list .anchor:active:after {
+    right: 8px;
+    top: 21%;
+}
+
+.dropdown-check-list ul.checkbox-list {
+    padding: 2px;
+    display: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.dropdown-check-list ul.checkbox-list li {
+    list-style: none;
+}
+
+.dropdown-check-list.visible .checkbox-list {
+    display: block;
+    position: absolute;
+    background: black;
+    width: 85%;
+    padding: 25px;
+    font-family: 'kg_primary_whimsyregular';
+}
+#name-list > ul > li:nth-child(1) > input[type=checkbox], #name-list > ul > li:nth-child(2) > input[type=checkbox],
+#name-list > ul > li:nth-child(3) > input[type=checkbox], #name-list > ul > li:nth-child(4) > input[type=checkbox]{
+    width: 50px;
+}
+#name-list > ul > li:nth-child(1), #name-list > ul > li:nth-child(2), #name-list > ul > li:nth-child(3), #name-list > ul > li:nth-child(4) {
+    color: white;
+}
+#name-list {
+    padding-bottom: 15px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+#query > button::after {
+    content: "\f00e";
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 10px;
+}
+#search-result-container {
+    padding: 30px 35px;
+    background: #121212;
+    border-radius: 25px;
+    max-width: 1440px;
+    margin: 5% auto auto;
+}
+#search-result-container > h2 {
+    color: white;
+    text-align: center;
+}
+th, td {
+    color: white;
+    border: solid;
+}
+td {
+    text-align: center !important;
+}
+th, td {
+    padding: 3px 8px;
+}
+#search-result {
+    margin: auto;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 2% 2% 80px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    cursor: zoom-out;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.79);
+}
+th:hover {
+    cursor: pointer !important;
+}
+#score-criteria, #avg-criteria {
+    display: inline-block;
+    width: 86px;
+    height: 40px;
+    background: #121212;
+    color: white;
+    padding: 10px;
+    border: solid 1px white;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#query > label:nth-child(6), #query > label:nth-child(9) {
+    width: 100px !important;
+}

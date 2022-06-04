@@ -1,0 +1,72 @@
+footer {
+    position: fixed !important;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+h1, h2, p, div, a, figurecaption {
+    font-family: Arial;
+}
+article {
+    padding: 0 5% 5%;
+}
+h1.page-title {
+    color: #f7a601;
+    filter: drop-shadow(15px 15px 20px #121212);
+    text-shadow: 15px 15px 20px #121212;
+}
+label {
+    width: 100px;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+}
+input {
+    width: 150px;
+    font-family: 'kg_primary_whimsyregular';
+    font-size: 20px;
+    color: white;
+    background: #222630;
+    border: none;
+    margin-bottom: 15px;
+    padding: 2%;
+}
+form {
+    display: block;
+    margin: auto;
+}
+#form-container {
+    padding: 35px;
+    background: #121212;
+    width: 350px;
+    height: 370px;
+    border-radius: 25px;
+    filter: drop-shadow(15px 15px 20px #121212);
+    margin: 2% auto auto;
+}
+#form-container > h2 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+#form-container > p {
+    text-align: center;
+    color: white;
+    filter: drop-shadow(15px 15px 20px #121212);
+    text-shadow: 15px 15px 20px #121212;
+    margin-bottom: 0;
+    margin-top: 45px;
+}
+#form-container > form > ul > li.button > button {
+    margin-bottom: 0 !important;
+    margin: auto;
+    display: block;
+}
+#form-container > form > ul > li.button {
+    margin-top: 20px;
+}
+.visible #form-container > p:nth-child(4) {
+    display: none;
+}

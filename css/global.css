@@ -1,0 +1,245 @@
+/*** Global attributes ***/
+/*** Fonts ***/
+@font-face {
+    font-family: 'kg_primary_whimsyregular';
+    src: url('/fonts/kgprimarywhimsy-webfont.woff2') format('woff2'),
+    url('/fonts/kgprimarywhimsy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-display: block;
+    font-weight: 400;
+    src: url("/fonts/fa-regular-400.woff2") format("woff2"),
+    url("/fonts/fa-regular-400.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-display: block;
+    font-weight: 400;
+    src: url("/fonts/fa-brands-400.woff2") format("woff2"),
+    url("/fonts/fa-brands-400.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-display: block;
+    font-weight: 900;
+    src: url("/fonts/fa-solid-900.woff2") format("woff2"),
+    url("/fonts/fa-solid-900.ttf") format("truetype");
+}
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    display: block;
+}
+h1, h2, p, div, a, figurecaption {
+    color: #222630;
+    font-family: 'kg_primary_whimsyregular';
+}
+p, figurecaption, li {
+    font-size: 20px;
+}
+h2 {
+    font-size: 2em;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+/*** Header ***/
+#logo {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    min-width: 200px;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+    -webkit-filter: drop-shadow(15px 15px 20px #121212);
+    filter: drop-shadow(15px 15px 20px #121212);
+}
+body > header > figure {
+    margin: 0;
+    padding: 16px;
+}
+.logo-link {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+/*** Body ***/
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("../media/images/tiles3D_min.png");
+    background-repeat: no-repeat;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+button {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: #FF5733;
+    color: #fff;
+    border-color: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 20px #121212;
+    margin-bottom: 42%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/***Menu***/
+.bottom-menu {
+    text-align: center;
+}
+nav.bottom-menu * {
+    margin: 5px;
+    background-color: #FF5733;
+    color: #fff;
+    border-color: transparent;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 20px #121212;
+    padding: 10px 15px;
+    font-family: Arial;
+    display: inline-block;
+}
+nav.bottom-menu *:hover {
+    color: #008bd2;
+}
+nav.bottom-menu {
+    margin-top: 20px;
+}
+body > main > article > nav > a:hover {
+    cursor: pointer;
+    color: #222630;
+}
+/***Footer***/
+body > footer > p {
+    margin: 0;
+    font-family: "American Typewriter";
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+}
+
+footer {
+    position: static;
+    bottom:0;
+    left:0;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    width:100%;
+    background: rgba(255, 255, 255, 0.52);
+}
+body > main {
+    padding-bottom: 50px;
+}
+
+article {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+h1.page-title {
+    padding: 0 10px 10px;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    font-family: 'kg_primary_whimsyregular';
+    -webkit-filter: drop-shadow(15px 15px 20px #121212);
+    filter: drop-shadow(15px 15px 20px #121212);
+    text-shadow: 15px 15px 20px #121212;
+}
+@media only screen and (max-width:  706px){
+    body > main {
+        padding-bottom: 80px;
+    }
+    #logout {
+        right: 20px !important;
+    }
+    #h2-logout {
+        font-size: 1.5em !important;
+    }
+    .logo-link {
+        margin: 0 20% !important;
+    }
+}
+@media only screen and (max-width: 1098px) {
+    .logo-link {
+        margin: 0 150px;
+    }
+}
+
+.hidden{
+    display: none;
+}
+#logout {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 9;
+}
+#logout > h2:hover {
+    color: red;
+}
+#h2-logout {
+    color: #008bd2;
+    font-family: 'kg_primary_whimsyregular';
+}
+#h2-logout::after {
+    line-height: 42px;
+    font-size: 28px;
+    content: "\f08b";
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 10px;
+}

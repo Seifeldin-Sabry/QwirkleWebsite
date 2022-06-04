@@ -1,0 +1,127 @@
+.left-column, .integrity-container {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 500px;
+}
+.integrity-container video{
+    margin-right: 200px;
+}
+
+.table-btn-container table{
+    border: 2px solid black;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+}
+
+#integrity-info > a{
+    text-decoration: blue underline !important;
+    color: blue;
+}
+
+
+.table-btn-container th,td {
+    border: 2px solid black;
+}
+
+article {
+    background: rgba(255, 255, 255, 0.71);
+    padding: 20px 20px 40px 20px;
+    box-shadow: 15px 15px 20px #121212;
+}
+.download-button {
+    width: 200px;
+    margin: 50px auto 10px;
+    display: block;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width:  1048px) {
+    #preview-video {
+        min-height: 340px;
+    }
+}
+@media only screen and (max-width:  1047px) {
+    #preview-video {
+        min-height: 200px;
+    }
+}
+#preview-video {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+body > main > article > div.integrity-container > p {
+    padding: 20px;
+}
+.table-btn-container {
+    width: 100%;
+}
+article {
+    max-width: 1440px;
+    display: block;
+    margin: auto;
+}
+button {
+    margin-bottom: 0 !important;
+}
+@media only screen and (max-width:  1048px){
+    article {
+        max-width: 500px;
+    }
+    #preview-video {
+        min-height: 250px;
+    }
+    .left-column, .integrity-container {
+        min-width: auto;
+        width: auto;
+    }
+}
+body > main {
+    padding-bottom: 50px !important;
+}
+#sha256jar, #sha512jar, #md5jar, #sha256zip, #sha512zip, #md5zip {
+    font-size: 10px;
+    word-break: break-all;
+    font-family: sans-serif;
+}
+@media only screen and (max-width:  1049px){
+    body > main > article > div.buttons-container {
+        padding-bottom: 0 !important;
+    }
+    .download-button {
+        margin: 20px auto !important;
+    }
+}
+
+body > main > article > div.buttons-container {
+    padding-bottom: 5%;
+}
+#integrity-info {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.table-btn-container th, td {
+    font-size: 20px;
+}
+h1.page-title::after {
+    content: "\f296";
+    font-family: 'Font Awesome 5 Brands';
+    margin-left: 10px;
+    text-shadow: none;
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+}
